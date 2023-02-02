@@ -1,0 +1,32 @@
+
+
+
+1.NPM (Node Package Manager), Javascript dilleri için paket yöneticisidir. Kullanıcılar tarafından oluşturulan veya topluluk tarafından sunulan paketleri indirmek, yüklemek ve kullanmak için kullanılır.
+
+2.Async - Await, Javascript'te asenkron işlemleri yapmak için kullanılan bir yapıdır. Kodlar arasında beklemeler oluşmasını önler ve daha okunabilir kodlar oluşmasını sağlar. Genellikle Node.js veya web uygulamalarında kullanılır.
+
+3.Express, Node.js tabanlı web uygulamaları yazmak için bir kütüphanedir. HTTP istek ve yanıtlarını yönetmek, rotalama yapmak, middleware yapılarını kullanmak gibi işlemleri kolaylaştırır.
+
+4.Javascript'te fibonacci sayılarını hesaplayan bir program;
+   
+function fibonacci(num) {
+  if (num <= 1) return num;
+  return fibonacci(num - 1) + fibonacci(num - 2);
+}
+
+Recursive (Özyinelemeli), kendisini tekrar tekrar çağırarak işlem yapmaya olanak tanıyan fonksiyonlar anlamına gelir.
+
+
+5. JSON (JavaScript Object Notation), verilerin iletiminde kullanılan bir veri formatıdır. XML'e göre daha hafif ve okunabilirdir. XML ise, verilerin düzenli bir şekilde iletimini sağlamaya yönelik bir veri formatıdır ve JSON'a göre daha esnektir.
+
+6.Module Export, Javascript dosyaları arasında veri ve fonksiyonların paylaşımını sağlamak için kullanılan bir yapıdır. Dosyalar arasında module.exports veya exports kullanılarak veri veya fonksiyonlar tanımlanır ve başka dosyalarda require fonksiyonu ile kullanılabilir.
+
+7.Javascript, web tarafında çalışan, dinamik bir programlama dilidir. Typescript ise, Javascript'e tip tanımlama özelliği ekleyen bir dil dilidir ve daha güvenli ve büyük projelerde kolaylaştırıcı özelliklere sahiptir.
+
+8.Axios, JavaScript dilleri için HTTP isteklerini yapmak için kullanılan bir araçtır. Axios ile REST API'lere veya diğer HTTP kaynaklarına istek yapabilir, verileri alabilir ve yanıtları işleyebilirsiniz. Axios, Promise tabanlı ve birçok platformda kullanılabilir, aynı zamanda HTTP taleplerinde otomatik olarak JSON verilerini dönüştürür.
+
+9.GET methodu, sunucudan veri almak için kullanılır. GET isteği URL'ye eklenen verilerle birlikte gönderilir ve sunucudan dönen veriler tarayıcının geçici olarak sakladığı verilerdir. GET istekleri güvenli değildir ve sunucuya veri gönderme işlemi yapılmaz.
+
+POST methodu ise, sunucuya veri göndermek için kullanılır. POST isteği, verilerin sunucuya gönderildiği bir form olarak gönderilir ve sunucuya veri gönderme işlemi yapılabilir. POST istekleri güvenli bir yöntemdir ve sunucuya daha büyük veri miktarlarını göndermeye olanak tanır.
+
+Kısaca, GET isteği sunucudan veri almak için, POST isteği ise sunucuya veri göndermek için kullanılır.
